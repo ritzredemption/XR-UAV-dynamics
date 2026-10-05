@@ -9,7 +9,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230a0b0d'/%3E%3Cpath d='M8 9l16 14M24 9L8 23' stroke='%2337e0a0' stroke-width='2.5'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="style.css?v=4">
+<link rel="stylesheet" href="style.css?v=5">
 </head>
 <body>
 <header class="site-header">
@@ -28,12 +28,12 @@
   <section class="hero">
     <img class="hero-img" src="assets/hero.jpg" alt="Flight Dynamics: a fighter jet taking off with afterburner on a dark runway" fetchpriority="high">
     <div class="hero-shade"></div>
-    <div class="hero-copy">
-      <h1>XR DYNAMICS</h1>
-      <p class="tagline grad-text">Flight Dynamics &amp; XR Simulation</p>
-      <p class="lede">Physics-based simulation and XR training infrastructure for autonomous defense systems.</p>
-    </div>
     <a class="scroll-cue" href="#capabilities" aria-label="Scroll to capabilities"><span></span></a>
+  </section>
+
+  <section class="intro">
+    <p class="tagline grad-text">Flight Dynamics &amp; XR Simulation</p>
+    <p class="lede">Physics-based simulation and XR training infrastructure for autonomous defense systems.</p>
   </section>
 
   <section class="stats">
@@ -46,6 +46,7 @@
     <article class="project">
       <div class="project-head"><span class="idx">01 / 05</span>
         <h2 class="project-name">UAV / Drone Training</h2></div>
+      <div class="videos n1"><figure><div class="video"><div class="video-empty"><div class="play"></div><span>VIDEO COMING SOON</span></div><div class="corners" aria-hidden="true"><i></i><i></i><i></i><i></i></div></div><figcaption>Demo video</figcaption></figure></div>
       <div class="project-info">
         <div><p class="desc">Simulate realistic aircraft and drone flight dynamics, and train operators in VR.</p><ul class="pts"><li>Train pilots and operators in VR without using physical aircraft.</li><li>Practice difficult scenarios: high winds, turbulence, low visibility, engine failure, GPS-denied environments.</li><li>Reproduce dangerous scenarios repeatedly and safely.</li></ul></div>
         <div class="side"><ul class="tech"><li>High winds</li><li>Turbulence</li><li>Low visibility</li><li>Engine failure</li><li>GPS-denied</li></ul></div>
@@ -54,6 +55,7 @@
     <article class="project">
       <div class="project-head"><span class="idx">02 / 05</span>
         <h2 class="project-name">Autonomous Military Aircraft</h2></div>
+      <div class="videos n1"><figure><div class="video"><div class="video-empty"><div class="play"></div><span>VIDEO COMING SOON</span></div><div class="corners" aria-hidden="true"><i></i><i></i><i></i><i></i></div></div><figcaption>Demo video</figcaption></figure></div>
       <div class="project-info">
         <div><p class="desc">The flight-dynamics simulator becomes the physics layer for training autonomous agents.</p><p class="explain">The loop: the agent commands the aircraft, physics responds, and sensors report back. AI can learn:</p><ul class="pts"><li>Takeoff and landing</li><li>Navigation</li><li>Collision avoidance</li><li>Formation flying</li><li>Dynamic obstacle avoidance</li><li>Extreme-weather flight</li><li>Autonomous recovery from failures</li></ul></div>
         <div class="side"><ul class="tech flow"><li>Aircraft</li><li>Sensors</li><li>Physics</li><li>Environment</li><li>RL Agent</li><li>Control</li></ul></div>
@@ -62,6 +64,7 @@
     <article class="project">
       <div class="project-head"><span class="idx">03 / 05</span>
         <h2 class="project-name">Mission Simulation</h2></div>
+      <div class="videos n1"><figure><div class="video"><div class="video-empty"><div class="play"></div><span>VIDEO COMING SOON</span></div><div class="corners" aria-hidden="true"><i></i><i></i><i></i><i></i></div></div><figcaption>Demo video</figcaption></figure></div>
       <div class="project-info">
         <div><p class="desc">XR places operators inside realistic mission environments.</p><p class="explain">The same simulated environment can be used for both human training and AI training.</p></div>
         <div class="side"><ul class="tech"><li>UAV reconnaissance</li><li>Search and surveillance</li><li>Convoy support</li><li>Border / pipeline monitoring</li><li>Maritime surveillance</li><li>Search and rescue</li><li>Disaster response</li></ul></div>
@@ -70,6 +73,7 @@
     <article class="project">
       <div class="project-head"><span class="idx">04 / 05</span>
         <h2 class="project-name">Hardware-in-the-Loop / Virtual Testing</h2></div>
+      <div class="videos n1"><figure><div class="video"><div class="video-empty"><div class="play"></div><span>VIDEO COMING SOON</span></div><div class="corners" aria-hidden="true"><i></i><i></i><i></i><i></i></div></div><figcaption>Demo video</figcaption></figure></div>
       <div class="project-info">
         <div><p class="desc">Test new flight-control algorithms in a physics-based virtual environment before expensive aircraft.</p><p class="explain">Simulate flight dynamics, wind, terrain, sensors, communications and vehicle failures, then move progressively from simulation to hardware-in-the-loop to field testing. This greatly increases the number of scenarios tested before real-world deployment.</p></div>
         <div class="side"><ul class="tech flow"><li>Simulation</li><li>Hardware-in-the-loop</li><li>Field testing</li></ul></div>
@@ -78,6 +82,7 @@
     <article class="project">
       <div class="project-head"><span class="idx">05 / 05</span>
         <h2 class="project-name">XR Teleoperation</h2></div>
+      <div class="videos n1"><figure><div class="video"><div class="video-empty"><div class="play"></div><span>VIDEO COMING SOON</span></div><div class="corners" aria-hidden="true"><i></i><i></i><i></i><i></i></div></div><figcaption>Demo video</figcaption></figure></div>
       <div class="project-info">
         <div><p class="desc">An operator wearing a VR headset controls a simulated or real UAV through an immersive cockpit and interface.</p><p class="explain">This allows training and evaluating human-machine interaction before the system is deployed.</p></div>
         <div class="side"><ul class="tech flow"><li>VR Operator</li><li>XR Controls</li><li>UAV Dynamics</li><li>Sensor Simulation</li><li>Virtual Environment</li></ul></div>
