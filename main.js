@@ -69,7 +69,7 @@ function render() {
     }).join("");
     return `
     <article class="project">
-      <div class="project-head"><span class="idx">${pad(i + 1)} / ${pad(PROJECTS.length)}</span>
+      <div class="project-head"><span class="idx">${pad(i + 3)} / 07</span>
         <h2 class="project-name">${esc(p.name)}</h2>${p.badge ? UE : ""}</div>
       <div class="videos n${list.length}">${cells}</div>
       <div class="project-info">
